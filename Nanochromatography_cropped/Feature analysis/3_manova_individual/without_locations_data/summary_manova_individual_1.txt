@@ -1,0 +1,515 @@
+[1] "Summary of result A"
+          Df Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.8626   12.556      8     16 1.419e-05 ***
+Residuals 23                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result A"
+ Response area_mean :
+            Df     Sum Sq   Mean Sq F value    Pr(>F)    
+class        1 1778987060 1.779e+09  53.183 2.021e-07 ***
+Residuals   23  769351144 3.345e+07                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 5.9636e+10 5.9636e+10  63.803 4.404e-08 ***
+Residuals   23 2.1498e+10 9.3468e+08                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.004586 0.0045855  2.4892 0.1283
+Residuals   23 0.042369 0.0018422               
+
+ Response ecc_std :
+            Df    Sum Sq   Mean Sq F value Pr(>F)  
+class        1 0.0047325 0.0047325  4.6775 0.0412 *
+Residuals   23 0.0232707 0.0010118                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_mean :
+            Df  Sum Sq Mean Sq F value  Pr(>F)  
+class        1  272.29 272.287   3.433 0.07678 .
+Residuals   23 1824.22  79.314                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value Pr(>F)  
+class        1  94.99  94.991  4.6476 0.0418 *
+Residuals   23 470.10  20.439                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+class        1  43827   43827  41.408 1.446e-06 ***
+Residuals   23  24344    1058                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1389817 1389817  50.137 3.258e-07 ***
+Residuals   23  637566   27720                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result B"
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.87432   13.913      8     16 7.204e-06 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result B"
+ Response area_mean :
+            Df Sum Sq Mean Sq F value  Pr(>F)  
+class        1  96404   96404  7.5449 0.01149 *
+Residuals   23 293880   12777                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df    Sum Sq   Mean Sq F value    Pr(>F)    
+class        1 128450853 128450853  20.093 0.0001691 ***
+Residuals   23 147035339   6392841                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq   Mean Sq F value    Pr(>F)    
+class        1 0.013761 0.0137608   25.07 4.584e-05 ***
+Residuals   23 0.012625 0.0005489                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_std :
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.0006656 0.0006656  2.8739 0.1035
+Residuals   23 0.0053268 0.0002316               
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1   1.52  1.5196   0.119 0.7333
+Residuals   23 293.77 12.7727               
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value  Pr(>F)  
+class        1 19.778 19.7778  4.9357 0.03643 *
+Residuals   23 92.163  4.0071                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_mean :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1   18.26  18.264  0.1725 0.6817
+Residuals   23 2434.98 105.869               
+
+ Response peri_std :
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+class        1  79749   79749  10.428 0.00371 **
+Residuals   23 175895    7648                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result C"
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.95095   38.778      8     16 4.834e-09 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result C"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value   Pr(>F)   
+class        1 3474958939 3474958939  9.5662 0.005133 **
+Residuals   23 8354878897  363255604                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 9.5803e+10 9.5803e+10  34.806 5.163e-06 ***
+Residuals   23 6.3308e+10 2.7525e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.000599 0.00059856   0.191 0.6661
+Residuals   23 0.072061 0.00313310               
+
+ Response ecc_std :
+            Df    Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.0005396 0.00053963   0.641 0.4315
+Residuals   23 0.0193617 0.00084181               
+
+ Response orien_mean :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1    1.55   1.547  0.0199 0.8889
+Residuals   23 1784.18  77.573               
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value  Pr(>F)  
+class        1  357.5  357.50   6.962 0.01468 *
+Residuals   23 1181.1   51.35                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value   Pr(>F)   
+class        1  71629   71629  9.1849 0.005946 **
+Residuals   23 179368    7799                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1808358 1808358  27.318 2.663e-05 ***
+Residuals   23 1522510   66196                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result D"
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.92522   24.745      8     16 1.313e-07 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result D"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 3497144057 3497144057  29.543 1.595e-05 ***
+Residuals   23 2722610579  118374373                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 8.2856e+10 8.2856e+10  53.898 1.812e-07 ***
+Residuals   23 3.5357e+10 1.5373e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.000603 0.00060327  0.2405 0.6285
+Residuals   23 0.057682 0.00250792               
+
+ Response ecc_std :
+            Df   Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.000977 0.00097656  0.6608 0.4246
+Residuals   23 0.033989 0.00147778               
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1  36.66  36.657  1.3612 0.2553
+Residuals   23 619.40  26.930               
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1  17.71  17.712   0.838 0.3695
+Residuals   23 486.12  21.136               
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+class        1  93726   93726  42.318 1.226e-06 ***
+Residuals   23  50940    2215                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 2125468 2125468  29.467 1.622e-05 ***
+Residuals   23 1658979   72130                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result E"
+          Df Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.9163   21.895      8     16 3.153e-07 ***
+Residuals 23                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result E"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value  Pr(>F)   
+class        1 2425972777 2425972777  8.1233 0.00906 **
+Residuals   23 6868828951  298644737                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 6.7793e+10 6.7793e+10  24.515 5.263e-05 ***
+Residuals   23 6.3603e+10 2.7653e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq  Mean Sq F value  Pr(>F)  
+class        1 0.021099 0.021099  6.3744 0.01893 *
+Residuals   23 0.076130 0.003310                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_std :
+            Df    Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.0022408 0.00224081  2.8062 0.1074
+Residuals   23 0.0183663 0.00079853               
+
+ Response orien_mean :
+            Df  Sum Sq Mean Sq F value  Pr(>F)  
+class        1  245.15 245.146  3.4811 0.07488 .
+Residuals   23 1619.70  70.422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1  12.811  12.811  1.0511 0.3159
+Residuals   23 280.320  12.188               
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value   Pr(>F)   
+class        1  42317   42317  9.8707 0.004571 **
+Residuals   23  98604    4287                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1105257 1105257  32.672 8.046e-06 ***
+Residuals   23  778058   33829                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result F"
+          Df Pillai approx F num Df den Df  Pr(>F)    
+class      1 0.9498   37.843      8     16 5.8e-09 ***
+Residuals 23                                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result F"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value   Pr(>F)   
+class        1 2.2248e+10 2.2248e+10  11.323 0.002676 **
+Residuals   23 4.5191e+10 1.9648e+09                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value   Pr(>F)    
+class        1 1.7500e+11 1.7500e+11  34.837 5.13e-06 ***
+Residuals   23 1.1553e+11 5.0233e+09                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.000077 0.00007656  0.0488 0.8271
+Residuals   23 0.036093 0.00156926               
+
+ Response ecc_std :
+            Df    Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.0009046 0.00090456  1.0539 0.3153
+Residuals   23 0.0197401 0.00085827               
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1    1.5   1.545  0.0094 0.9237
+Residuals   23 3786.7 164.638               
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1   1.20  1.1959  0.0775 0.7832
+Residuals   23 355.03 15.4361               
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value   Pr(>F)   
+class        1 555604  555604  13.579 0.001226 **
+Residuals   23 941056   40915                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 5076644 5076644  70.305 1.898e-08 ***
+Residuals   23 1660812   72209                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result G"
+          Df  Pillai approx F num Df den Df   Pr(>F)   
+class      1 0.72905   5.3814      8     16 0.002105 **
+Residuals 23                                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result G"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value Pr(>F)
+class        1 6.9083e+09 6908301744  1.4304 0.2439
+Residuals   23 1.1108e+11 4829504155               
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value  Pr(>F)  
+class        1 5.7065e+10 5.7065e+10  3.6586 0.06831 .
+Residuals   23 3.5875e+11 1.5598e+10                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.011007 0.0110067  2.4403 0.1319
+Residuals   23 0.103741 0.0045105               
+
+ Response ecc_std :
+            Df   Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.004866 0.0048663  2.4714 0.1296
+Residuals   23 0.045288 0.0019690               
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1  46.28  46.279  1.5475  0.226
+Residuals   23 687.85  29.907               
+
+ Response orien_std :
+            Df  Sum Sq Mean Sq F value  Pr(>F)  
+class        1  82.984  82.984  7.0676 0.01404 *
+Residuals   23 270.055  11.742                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_mean :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1  125794  125794  1.6657 0.2097
+Residuals   23 1737008   75522               
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value  Pr(>F)  
+class        1 1087046 1087046  3.3368 0.08076 .
+Residuals   23 7492876  325777                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result H"
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.76132   6.3794      8     16 0.0008522 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result H"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value  Pr(>F)  
+class        1 1.7549e+09 1754867993  2.9649 0.09851 .
+Residuals   23 1.3613e+10  591876610                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value Pr(>F)  
+class        1 2.8305e+10 2.8305e+10   5.887 0.0235 *
+Residuals   23 1.1059e+11 4.8081e+09                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.000096 0.0000960  0.0302 0.8635
+Residuals   23 0.073070 0.0031769               
+
+ Response ecc_std :
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.0025118 0.0025118  2.2821 0.1445
+Residuals   23 0.0253156 0.0011007               
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value  Pr(>F)  
+class        1  71.67  71.672  4.2738 0.05014 .
+Residuals   23 385.71  16.770                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        1  32.67  32.672  1.9217  0.179
+Residuals   23 391.05  17.002               
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)  
+class        1  60703   60703  4.5693 0.0434 *
+Residuals   23 305555   13285                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value   Pr(>F)   
+class        1 1031140 1031140  9.7205 0.004839 **
+Residuals   23 2439820  106079                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[1] "Summary of result I"
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.89552   17.143      8     16 1.749e-06 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Summary of aov result I"
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 5.2768e+10 5.2768e+10  36.868 3.416e-06 ***
+Residuals   23 3.2919e+10 1.4313e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 2.9685e+11 2.9685e+11  53.439 1.944e-07 ***
+Residuals   23 1.2776e+11 5.5550e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df  Sum Sq  Mean Sq F value   Pr(>F)   
+class        1 0.08194 0.081940  8.3248 0.008353 **
+Residuals   23 0.22639 0.009843                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_std :
+            Df   Sum Sq   Mean Sq F value  Pr(>F)  
+class        1 0.011085 0.0110845  3.1269 0.09027 .
+Residuals   23 0.081533 0.0035449                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)  
+class        1  600.3  600.25  3.0655 0.0933 .
+Residuals   23 4503.7  195.81                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1   72.45  72.451  1.0314 0.3204
+Residuals   23 1615.66  70.246               
+
+ Response peri_mean :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1012846 1012846  50.512 3.069e-07 ***
+Residuals   23  461189   20052                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 6343417 6343417  53.114 2.043e-07 ***
+Residuals   23 2746914  119431                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
