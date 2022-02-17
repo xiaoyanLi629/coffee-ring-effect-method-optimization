@@ -1,0 +1,57 @@
+          Df Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.9163   21.895      8     16 3.153e-07 ***
+Residuals 23                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value  Pr(>F)   
+class        1 2425972777 2425972777  8.1233 0.00906 **
+Residuals   23 6868828951  298644737                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 6.7793e+10 6.7793e+10  24.515 5.263e-05 ***
+Residuals   23 6.3603e+10 2.7653e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq  Mean Sq F value  Pr(>F)  
+class        1 0.021099 0.021099  6.3744 0.01893 *
+Residuals   23 0.076130 0.003310                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_std :
+            Df    Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.0022408 0.00224081  2.8062 0.1074
+Residuals   23 0.0183663 0.00079853               
+
+ Response orien_mean :
+            Df  Sum Sq Mean Sq F value  Pr(>F)  
+class        1  245.15 245.146  3.4811 0.07488 .
+Residuals   23 1619.70  70.422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1  12.811  12.811  1.0511 0.3159
+Residuals   23 280.320  12.188               
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value   Pr(>F)   
+class        1  42317   42317  9.8707 0.004571 **
+Residuals   23  98604    4287                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1105257 1105257  32.672 8.046e-06 ***
+Residuals   23  778058   33829                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

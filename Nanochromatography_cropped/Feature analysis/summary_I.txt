@@ -1,0 +1,59 @@
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.89552   17.143      8     16 1.749e-06 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 5.2768e+10 5.2768e+10  36.868 3.416e-06 ***
+Residuals   23 3.2919e+10 1.4313e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 2.9685e+11 2.9685e+11  53.439 1.944e-07 ***
+Residuals   23 1.2776e+11 5.5550e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df  Sum Sq  Mean Sq F value   Pr(>F)   
+class        1 0.08194 0.081940  8.3248 0.008353 **
+Residuals   23 0.22639 0.009843                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_std :
+            Df   Sum Sq   Mean Sq F value  Pr(>F)  
+class        1 0.011085 0.0110845  3.1269 0.09027 .
+Residuals   23 0.081533 0.0035449                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_mean :
+            Df Sum Sq Mean Sq F value Pr(>F)  
+class        1  600.3  600.25  3.0655 0.0933 .
+Residuals   23 4503.7  195.81                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1   72.45  72.451  1.0314 0.3204
+Residuals   23 1615.66  70.246               
+
+ Response peri_mean :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1012846 1012846  50.512 3.069e-07 ***
+Residuals   23  461189   20052                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 6343417 6343417  53.114 2.043e-07 ***
+Residuals   23 2746914  119431                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

@@ -1,0 +1,59 @@
+          Df Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.8626   12.556      8     16 1.419e-05 ***
+Residuals 23                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response area_mean :
+            Df     Sum Sq   Mean Sq F value    Pr(>F)    
+class        1 1778987060 1.779e+09  53.183 2.021e-07 ***
+Residuals   23  769351144 3.345e+07                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 5.9636e+10 5.9636e+10  63.803 4.404e-08 ***
+Residuals   23 2.1498e+10 9.3468e+08                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq   Mean Sq F value Pr(>F)
+class        1 0.004586 0.0045855  2.4892 0.1283
+Residuals   23 0.042369 0.0018422               
+
+ Response ecc_std :
+            Df    Sum Sq   Mean Sq F value Pr(>F)  
+class        1 0.0047325 0.0047325  4.6775 0.0412 *
+Residuals   23 0.0232707 0.0010118                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_mean :
+            Df  Sum Sq Mean Sq F value  Pr(>F)  
+class        1  272.29 272.287   3.433 0.07678 .
+Residuals   23 1824.22  79.314                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value Pr(>F)  
+class        1  94.99  94.991  4.6476 0.0418 *
+Residuals   23 470.10  20.439                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+class        1  43827   43827  41.408 1.446e-06 ***
+Residuals   23  24344    1058                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1389817 1389817  50.137 3.258e-07 ***
+Residuals   23  637566   27720                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

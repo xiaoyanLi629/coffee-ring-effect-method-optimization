@@ -1,0 +1,55 @@
+          Df  Pillai approx F num Df den Df    Pr(>F)    
+class      1 0.95095   38.778      8     16 4.834e-09 ***
+Residuals 23                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response area_mean :
+            Df     Sum Sq    Mean Sq F value   Pr(>F)   
+class        1 3474958939 3474958939  9.5662 0.005133 **
+Residuals   23 8354878897  363255604                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response area_std :
+            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+class        1 9.5803e+10 9.5803e+10  34.806 5.163e-06 ***
+Residuals   23 6.3308e+10 2.7525e+09                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response ecc_mean :
+            Df   Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.000599 0.00059856   0.191 0.6661
+Residuals   23 0.072061 0.00313310               
+
+ Response ecc_std :
+            Df    Sum Sq    Mean Sq F value Pr(>F)
+class        1 0.0005396 0.00053963   0.641 0.4315
+Residuals   23 0.0193617 0.00084181               
+
+ Response orien_mean :
+            Df  Sum Sq Mean Sq F value Pr(>F)
+class        1    1.55   1.547  0.0199 0.8889
+Residuals   23 1784.18  77.573               
+
+ Response orien_std :
+            Df Sum Sq Mean Sq F value  Pr(>F)  
+class        1  357.5  357.50   6.962 0.01468 *
+Residuals   23 1181.1   51.35                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_mean :
+            Df Sum Sq Mean Sq F value   Pr(>F)   
+class        1  71629   71629  9.1849 0.005946 **
+Residuals   23 179368    7799                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response peri_std :
+            Df  Sum Sq Mean Sq F value    Pr(>F)    
+class        1 1808358 1808358  27.318 2.663e-05 ***
+Residuals   23 1522510   66196                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
