@@ -1,0 +1,44 @@
+[1] "PERMANOVA test for condition C"
+
+Call:
+adonis(formula = cbind(Eccentricity, Area, Perimeter) ~ Class,      data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+             Df  SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)    
+Class         4 1.6590e+11 4.1474e+10  88.332 0.02247  0.001 ***
+Residuals 15372 7.2176e+12 4.6953e+08         0.97753           
+Total     15376 7.3835e+12                    1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Run 0 stress 0.1693172 
+Run 1 stress 0.1694908 
+... Procrustes: rmse 0.0005187652  max resid 0.01942256 
+Run 2 stress 0.1696045 
+... Procrustes: rmse 0.000536281  max resid 0.01938408 
+Run 3 stress 0.1694196 
+... Procrustes: rmse 0.0005972222  max resid 0.02643776 
+Run 4 stress 0.1694263 
+... Procrustes: rmse 0.000535031  max resid 0.02746216 
+Run 5 stress 0.1697907 
+... Procrustes: rmse 0.000550668  max resid 0.01938411 
+Run 6 stress 0.1693726 
+... Procrustes: rmse 0.0005100666  max resid 0.02280809 
+Run 7 stress 0.4211193 
+Run 8 stress 0.1697382 
+... Procrustes: rmse 0.0005565586  max resid 0.0166448 
+Run 9 stress 0.1692573 
+... New best solution
+... Procrustes: rmse 0.0004890834  max resid 0.01896653 
+Run 10 stress 0.1694951 
+... Procrustes: rmse 0.0005148194  max resid 0.02942044 
+Run 11 stress 0.1698563 
+Run 12 stress 0.4211244 
+Run 13 stress 0.4211224 
+Run 14 stress 0.1693924 
+... Procrustes: rmse 0.0004886425  max resid 0.02118961 
+Run 15 stress 0.1693268 
+... Procrustes: rmse 0.0004756059  max resid 0.02116238 

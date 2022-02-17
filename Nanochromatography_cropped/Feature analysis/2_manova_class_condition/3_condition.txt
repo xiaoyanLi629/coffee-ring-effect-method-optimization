@@ -1,0 +1,58 @@
+[1] "summary for area mean ~ cond"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+condition    8  20869  2608.6   19.85 4.72e-11 ***
+Residuals   36   4731   131.4                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for peri mean ~ cond"
+            Df Sum Sq Mean Sq F value  Pr(>F)    
+condition    8  39406    4926   25.56 1.2e-12 ***
+Residuals   36   6938     193                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for centroid mean ~ cond"
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+condition    8 128030   16004    4.23 0.00118 **
+Residuals   36 136200    3783                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for eccen mean ~ cond"
+            Df   Sum Sq   Mean Sq F value   Pr(>F)    
+condition    8 0.007841 0.0009801   6.159 5.23e-05 ***
+Residuals   36 0.005729 0.0001591                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for orien mean ~ cond"
+            Df Sum Sq Mean Sq F value Pr(>F)
+condition    8  35.99   4.498   0.715  0.677
+Residuals   36 226.59   6.294               
+[1] "summary for area std ~ cond"
+            Df Sum Sq Mean Sq F value  Pr(>F)    
+condition    8 962596  120325   12.16 3.2e-08 ***
+Residuals   36 356143    9893                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for peri std ~ cond"
+            Df  Sum Sq Mean Sq F value   Pr(>F)    
+condition    8 2602114  325264   12.27 2.87e-08 ***
+Residuals   36  954327   26509                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for centroid std ~ cond"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+condition    8  46891    5861   13.95 5.64e-09 ***
+Residuals   36  15126     420                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for eccen std ~ cond"
+            Df   Sum Sq   Mean Sq F value   Pr(>F)    
+condition    8 0.004708 0.0005885   7.715 5.75e-06 ***
+Residuals   36 0.002746 0.0000763                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for orien std ~ cond"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+condition    8  170.9  21.362   7.133 1.28e-05 ***
+Residuals   36  107.8   2.995                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,565 @@
+[1] "PERMANOVA test for condition A"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+class      4   1124528  281132  14.542 0.74414  0.001 ***
+Residuals 20    386644   19332         0.25586           
+Total     24   1511171                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.03683716 
+Run 1 stress 0.03683711 
+... New best solution
+... Procrustes: rmse 0.0002421965  max resid 0.0009454346 
+... Similar to previous best
+Run 2 stress 0.03683726 
+... Procrustes: rmse 9.263061e-05  max resid 0.0003642571 
+... Similar to previous best
+Run 3 stress 0.03683705 
+... New best solution
+... Procrustes: rmse 9.259135e-05  max resid 0.0003625482 
+... Similar to previous best
+Run 4 stress 0.03683713 
+... Procrustes: rmse 0.0001249998  max resid 0.0004843431 
+... Similar to previous best
+Run 5 stress 0.03683721 
+... Procrustes: rmse 0.0001757019  max resid 0.0006840026 
+... Similar to previous best
+Run 6 stress 0.03683714 
+... Procrustes: rmse 0.000135622  max resid 0.0005274414 
+... Similar to previous best
+Run 7 stress 0.03683726 
+... Procrustes: rmse 0.0001950186  max resid 0.0007560247 
+... Similar to previous best
+Run 8 stress 0.03683717 
+... Procrustes: rmse 0.000137352  max resid 0.0005393788 
+... Similar to previous best
+Run 9 stress 0.03683724 
+... Procrustes: rmse 0.0001733911  max resid 0.0006803986 
+... Similar to previous best
+Run 10 stress 0.03683713 
+... Procrustes: rmse 0.0001145075  max resid 0.0004494568 
+... Similar to previous best
+Run 11 stress 0.03683707 
+... Procrustes: rmse 4.642284e-05  max resid 0.000183033 
+... Similar to previous best
+Run 12 stress 0.03683736 
+... Procrustes: rmse 0.0002221385  max resid 0.0008735286 
+... Similar to previous best
+Run 13 stress 0.03683715 
+... Procrustes: rmse 0.0001442178  max resid 0.0005610539 
+... Similar to previous best
+Run 14 stress 0.03683725 
+... Procrustes: rmse 0.0001820317  max resid 0.0007147868 
+... Similar to previous best
+Run 15 stress 0.03683721 
+... Procrustes: rmse 0.0001595736  max resid 0.0006266574 
+... Similar to previous best
+Run 16 stress 0.03683724 
+... Procrustes: rmse 0.0001608221  max resid 0.0006297578 
+... Similar to previous best
+Run 17 stress 0.03683723 
+... Procrustes: rmse 0.0001702332  max resid 0.0006684662 
+... Similar to previous best
+Run 18 stress 0.03683712 
+... Procrustes: rmse 0.0001162143  max resid 0.0004504078 
+... Similar to previous best
+Run 19 stress 0.03683718 
+... Procrustes: rmse 0.0001534933  max resid 0.0005332987 
+... Similar to previous best
+Run 20 stress 0.03683721 
+... Procrustes: rmse 0.0001800489  max resid 0.0007001928 
+... Similar to previous best
+*** Solution reached
+[1] "PERMANOVA test for condition B"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+class      4   3577478  894369  27.536 0.84632  0.001 ***
+Residuals 20    649600   32480         0.15368           
+Total     24   4227078                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.0215778 
+Run 1 stress 0.02157774 
+... New best solution
+... Procrustes: rmse 4.817013e-05  max resid 0.0001304267 
+... Similar to previous best
+Run 2 stress 0.03024552 
+Run 3 stress 0.04425719 
+Run 4 stress 0.04668144 
+Run 5 stress 0.04550855 
+Run 6 stress 0.03020737 
+Run 7 stress 0.02157783 
+... Procrustes: rmse 0.0001291478  max resid 0.0003593234 
+... Similar to previous best
+Run 8 stress 0.02157781 
+... Procrustes: rmse 0.0001046719  max resid 0.0002879094 
+... Similar to previous best
+Run 9 stress 0.02157774 
+... New best solution
+... Procrustes: rmse 6.676291e-05  max resid 0.0001846608 
+... Similar to previous best
+Run 10 stress 0.03020741 
+Run 11 stress 0.03222614 
+Run 12 stress 0.02384469 
+Run 13 stress 0.02157777 
+... Procrustes: rmse 3.275894e-05  max resid 8.625177e-05 
+... Similar to previous best
+Run 14 stress 0.02157782 
+... Procrustes: rmse 0.0001242771  max resid 0.0003426529 
+... Similar to previous best
+Run 15 stress 0.0215778 
+... Procrustes: rmse 4.878126e-05  max resid 0.0001387065 
+... Similar to previous best
+Run 16 stress 0.03020738 
+Run 17 stress 0.02157773 
+... New best solution
+... Procrustes: rmse 1.039576e-05  max resid 2.870345e-05 
+... Similar to previous best
+Run 18 stress 0.02157783 
+... Procrustes: rmse 7.711933e-05  max resid 0.0002110077 
+... Similar to previous best
+Run 19 stress 0.02157781 
+... Procrustes: rmse 6.657033e-05  max resid 0.0001742943 
+... Similar to previous best
+Run 20 stress 0.0215778 
+... Procrustes: rmse 5.10099e-05  max resid 0.0001473555 
+... Similar to previous best
+*** Solution reached
+[1] "PERMANOVA test for condition C"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+class      4   4653156 1163289  20.219 0.80174  0.001 ***
+Residuals 20   1150666   57533         0.19826           
+Total     24   5803822                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.02203701 
+Run 1 stress 0.04315953 
+Run 2 stress 0.04330509 
+Run 3 stress 0.0220368 
+... New best solution
+... Procrustes: rmse 0.0001318179  max resid 0.0003223905 
+... Similar to previous best
+Run 4 stress 0.02203693 
+... Procrustes: rmse 9.534835e-05  max resid 0.0002331911 
+... Similar to previous best
+Run 5 stress 0.04393411 
+Run 6 stress 0.04363648 
+Run 7 stress 0.04363632 
+Run 8 stress 0.02210196 
+... Procrustes: rmse 0.01287692  max resid 0.03793428 
+Run 9 stress 0.02203683 
+... Procrustes: rmse 2.875137e-05  max resid 7.01877e-05 
+... Similar to previous best
+Run 10 stress 0.02203704 
+... Procrustes: rmse 0.0001451459  max resid 0.0003546687 
+... Similar to previous best
+Run 11 stress 0.04320698 
+Run 12 stress 0.04256386 
+Run 13 stress 0.022157 
+... Procrustes: rmse 0.006226995  max resid 0.02426339 
+Run 14 stress 0.02215689 
+... Procrustes: rmse 0.006224039  max resid 0.02424607 
+Run 15 stress 0.02210194 
+... Procrustes: rmse 0.01287452  max resid 0.03791349 
+Run 16 stress 0.04284296 
+Run 17 stress 0.04308453 
+Run 18 stress 0.022102 
+... Procrustes: rmse 0.01287918  max resid 0.03795342 
+Run 19 stress 0.04323906 
+Run 20 stress 0.04363655 
+*** Solution reached
+[1] "PERMANOVA test for condition D"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+class      4   3617857  904464  10.834 0.68422  0.001 ***
+Residuals 20   1669697   83485         0.31578           
+Total     24   5287554                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.03279516 
+Run 1 stress 0.06204709 
+Run 2 stress 0.03279518 
+... Procrustes: rmse 0.0001534869  max resid 0.0006259669 
+... Similar to previous best
+Run 3 stress 0.03629603 
+Run 4 stress 0.03279512 
+... New best solution
+... Procrustes: rmse 0.0001108252  max resid 0.0004484615 
+... Similar to previous best
+Run 5 stress 0.03708225 
+Run 6 stress 0.03629607 
+Run 7 stress 0.03708219 
+Run 8 stress 0.06181083 
+Run 9 stress 0.06267485 
+Run 10 stress 0.03629608 
+Run 11 stress 0.03279519 
+... Procrustes: rmse 5.85475e-05  max resid 0.0002409159 
+... Similar to previous best
+Run 12 stress 0.03334086 
+Run 13 stress 0.03756323 
+Run 14 stress 0.03279519 
+... Procrustes: rmse 5.945861e-05  max resid 0.0002402747 
+... Similar to previous best
+Run 15 stress 0.06351348 
+Run 16 stress 0.04073681 
+Run 17 stress 0.03279517 
+... Procrustes: rmse 4.555505e-05  max resid 0.0001883356 
+... Similar to previous best
+Run 18 stress 0.03279511 
+... New best solution
+... Procrustes: rmse 5.505466e-05  max resid 0.0002152099 
+... Similar to previous best
+Run 19 stress 0.03629605 
+Run 20 stress 0.03756315 
+*** Solution reached
+[1] "PERMANOVA test for condition E"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+class      4   7673967 1918492  72.708 0.93566  0.001 ***
+Residuals 20    527724   26386         0.06434           
+Total     24   8201691                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.02525267 
+Run 1 stress 0.02525271 
+... Procrustes: rmse 0.0001161796  max resid 0.0004816659 
+... Similar to previous best
+Run 2 stress 0.02525263 
+... New best solution
+... Procrustes: rmse 6.506764e-05  max resid 0.0001878653 
+... Similar to previous best
+Run 3 stress 0.0252527 
+... Procrustes: rmse 7.30901e-05  max resid 0.0003062149 
+... Similar to previous best
+Run 4 stress 0.05299847 
+Run 5 stress 0.02525271 
+... Procrustes: rmse 9.099718e-05  max resid 0.0003146957 
+... Similar to previous best
+Run 6 stress 0.02525266 
+... Procrustes: rmse 6.610124e-05  max resid 0.0002672541 
+... Similar to previous best
+Run 7 stress 0.3763596 
+Run 8 stress 0.02525269 
+... Procrustes: rmse 9.126789e-05  max resid 0.0003754809 
+... Similar to previous best
+Run 9 stress 0.02525264 
+... Procrustes: rmse 8.559319e-06  max resid 1.453571e-05 
+... Similar to previous best
+Run 10 stress 0.02525267 
+... Procrustes: rmse 5.766508e-05  max resid 0.0001681437 
+... Similar to previous best
+Run 11 stress 0.02525269 
+... Procrustes: rmse 6.65304e-05  max resid 0.0002327242 
+... Similar to previous best
+Run 12 stress 0.05202048 
+Run 13 stress 0.02525265 
+... Procrustes: rmse 6.511532e-05  max resid 0.0002655949 
+... Similar to previous best
+Run 14 stress 0.02525269 
+... Procrustes: rmse 6.655009e-05  max resid 0.0002781628 
+... Similar to previous best
+Run 15 stress 0.0252527 
+... Procrustes: rmse 7.30641e-05  max resid 0.000240284 
+... Similar to previous best
+Run 16 stress 0.0252527 
+... Procrustes: rmse 9.593547e-05  max resid 0.0003943411 
+... Similar to previous best
+Run 17 stress 0.02525264 
+... Procrustes: rmse 3.113463e-05  max resid 0.0001275599 
+... Similar to previous best
+Run 18 stress 0.02525268 
+... Procrustes: rmse 6.281642e-05  max resid 0.0001762646 
+... Similar to previous best
+Run 19 stress 0.02525265 
+... Procrustes: rmse 3.832369e-05  max resid 8.05854e-05 
+... Similar to previous best
+Run 20 stress 0.02525266 
+... Procrustes: rmse 5.550765e-05  max resid 0.0001606809 
+... Similar to previous best
+*** Solution reached
+[1] "PERMANOVA test for condition F"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model    R2 Pr(>F)    
+class      4   4814162 1203540  16.459 0.767  0.001 ***
+Residuals 20   1462478   73124         0.233           
+Total     24   6276640                 1.000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.02309755 
+Run 1 stress 0.02309754 
+... New best solution
+... Procrustes: rmse 1.592947e-05  max resid 6.7319e-05 
+... Similar to previous best
+Run 2 stress 0.02424194 
+Run 3 stress 0.024242 
+Run 4 stress 0.03098238 
+Run 5 stress 0.02309765 
+... Procrustes: rmse 0.0001169043  max resid 0.000472877 
+... Similar to previous best
+Run 6 stress 0.03343189 
+Run 7 stress 0.0334319 
+Run 8 stress 0.02424199 
+Run 9 stress 0.03098238 
+Run 10 stress 0.02309756 
+... Procrustes: rmse 1.357589e-05  max resid 5.595984e-05 
+... Similar to previous best
+Run 11 stress 0.02309754 
+... New best solution
+... Procrustes: rmse 2.149542e-05  max resid 8.261411e-05 
+... Similar to previous best
+Run 12 stress 0.02424197 
+Run 13 stress 0.02309755 
+... Procrustes: rmse 3.039724e-05  max resid 0.0001088614 
+... Similar to previous best
+Run 14 stress 0.02424194 
+Run 15 stress 0.02309756 
+... Procrustes: rmse 4.076451e-05  max resid 0.000166901 
+... Similar to previous best
+Run 16 stress 0.02309755 
+... Procrustes: rmse 2.712574e-05  max resid 0.0001105962 
+... Similar to previous best
+Run 17 stress 0.02309754 
+... Procrustes: rmse 8.392988e-06  max resid 2.635132e-05 
+... Similar to previous best
+Run 18 stress 0.02309757 
+... Procrustes: rmse 4.736398e-05  max resid 0.0001937438 
+... Similar to previous best
+Run 19 stress 0.04612869 
+Run 20 stress 0.03343188 
+*** Solution reached
+[1] "PERMANOVA test for condition G"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model     R2 Pr(>F)    
+class      4   6104885 1526221  23.296 0.8233  0.001 ***
+Residuals 20   1310292   65515         0.1767           
+Total     24   7415177                 1.0000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.02874537 
+Run 1 stress 0.02874537 
+... Procrustes: rmse 5.1057e-06  max resid 1.687971e-05 
+... Similar to previous best
+Run 2 stress 0.02874538 
+... Procrustes: rmse 1.113736e-05  max resid 3.44868e-05 
+... Similar to previous best
+Run 3 stress 0.09192651 
+Run 4 stress 0.1078775 
+Run 5 stress 0.1075893 
+Run 6 stress 0.03074724 
+Run 7 stress 0.03074723 
+Run 8 stress 0.02874537 
+... Procrustes: rmse 5.206832e-06  max resid 1.67354e-05 
+... Similar to previous best
+Run 9 stress 0.02874538 
+... Procrustes: rmse 1.338956e-05  max resid 4.023718e-05 
+... Similar to previous best
+Run 10 stress 0.03840901 
+Run 11 stress 0.03074725 
+Run 12 stress 0.02874537 
+... New best solution
+... Procrustes: rmse 2.602528e-06  max resid 7.658029e-06 
+... Similar to previous best
+Run 13 stress 0.1066625 
+Run 14 stress 0.1071001 
+Run 15 stress 0.03737907 
+Run 16 stress 0.02874539 
+... Procrustes: rmse 3.892716e-05  max resid 0.000132154 
+... Similar to previous best
+Run 17 stress 0.09502437 
+Run 18 stress 0.02874538 
+... Procrustes: rmse 1.698669e-05  max resid 5.583476e-05 
+... Similar to previous best
+Run 19 stress 0.09491954 
+Run 20 stress 0.03074723 
+*** Solution reached
+[1] "PERMANOVA test for condition H"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+class      4   4503049 1125762  19.673 0.79735  0.001 ***
+Residuals 20   1144493   57225         0.20265           
+Total     24   5647542                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.01795736 
+Run 1 stress 0.01809429 
+... Procrustes: rmse 0.002697579  max resid 0.01170085 
+Run 2 stress 0.01795746 
+... Procrustes: rmse 5.01023e-05  max resid 0.0002208188 
+... Similar to previous best
+Run 3 stress 0.01795751 
+... Procrustes: rmse 0.0003279449  max resid 0.001403055 
+... Similar to previous best
+Run 4 stress 0.01795738 
+... Procrustes: rmse 1.03632e-05  max resid 4.083708e-05 
+... Similar to previous best
+Run 5 stress 0.0198349 
+Run 6 stress 0.04154283 
+Run 7 stress 0.01799533 
+... Procrustes: rmse 0.003008712  max resid 0.01330861 
+Run 8 stress 0.04082923 
+Run 9 stress 0.01929675 
+Run 10 stress 0.0198679 
+Run 11 stress 0.01929675 
+Run 12 stress 0.0192967 
+Run 13 stress 0.01983485 
+Run 14 stress 0.04142514 
+Run 15 stress 0.01795748 
+... Procrustes: rmse 0.0002080782  max resid 0.0006154285 
+... Similar to previous best
+Run 16 stress 0.0179778 
+... Procrustes: rmse 0.001999192  max resid 0.008769438 
+... Similar to previous best
+Run 17 stress 0.019835 
+Run 18 stress 0.01795735 
+... New best solution
+... Procrustes: rmse 8.81397e-05  max resid 0.0002220215 
+... Similar to previous best
+Run 19 stress 0.01795731 
+... New best solution
+... Procrustes: rmse 0.0001148188  max resid 0.0003919575 
+... Similar to previous best
+Run 20 stress 0.0179574 
+... Procrustes: rmse 6.989886e-05  max resid 0.0002208611 
+... Similar to previous best
+*** Solution reached
+[1] "PERMANOVA test for condition I"
+
+Call:
+adonis(formula = cbind(area_mean, area_std, eccen_mean, eccen_std,      orien_mean, orien_std, peri_mean, peri_std, centroid_mean,      centroid_std) ~ class, data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs MeanSqs F.Model     R2 Pr(>F)    
+class      4   5594262 1398566  12.495 0.7142  0.001 ***
+Residuals 20   2238660  111933         0.2858           
+Total     24   7832922                 1.0000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Square root transformation
+Wisconsin double standardization
+Run 0 stress 0.01954237 
+Run 1 stress 0.05625241 
+Run 2 stress 0.05006514 
+Run 3 stress 0.01973655 
+... Procrustes: rmse 0.01055703  max resid 0.0298654 
+Run 4 stress 0.01954244 
+... Procrustes: rmse 7.601928e-05  max resid 0.0002637263 
+... Similar to previous best
+Run 5 stress 0.01977549 
+... Procrustes: rmse 0.003365566  max resid 0.005315148 
+... Similar to previous best
+Run 6 stress 0.05606985 
+Run 7 stress 0.01973651 
+... Procrustes: rmse 0.0105333  max resid 0.0296003 
+Run 8 stress 0.05629023 
+Run 9 stress 0.01977747 
+... Procrustes: rmse 0.007713394  max resid 0.02746332 
+Run 10 stress 0.05737299 
+Run 11 stress 0.01954237 
+... Procrustes: rmse 3.510023e-05  max resid 6.566439e-05 
+... Similar to previous best
+Run 12 stress 0.01954242 
+... Procrustes: rmse 6.796373e-05  max resid 0.0001459124 
+... Similar to previous best
+Run 13 stress 0.01954241 
+... Procrustes: rmse 5.347664e-05  max resid 0.0001546489 
+... Similar to previous best
+Run 14 stress 0.01977748 
+... Procrustes: rmse 0.007704872  max resid 0.02747728 
+Run 15 stress 0.0562525 
+Run 16 stress 0.050065 
+Run 17 stress 0.01973654 
+... Procrustes: rmse 0.01052736  max resid 0.02955052 
+Run 18 stress 0.0195424 
+... Procrustes: rmse 5.119634e-05  max resid 9.88954e-05 
+... Similar to previous best
+Run 19 stress 0.0198256 
+... Procrustes: rmse 0.006613389  max resid 0.02803575 
+Run 20 stress 0.01954239 
+... Procrustes: rmse 2.990331e-05  max resid 0.0001041142 
+... Similar to previous best
+*** Solution reached

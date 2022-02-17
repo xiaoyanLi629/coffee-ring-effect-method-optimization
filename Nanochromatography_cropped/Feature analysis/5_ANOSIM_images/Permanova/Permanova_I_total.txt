@@ -1,0 +1,56 @@
+[1] "PERMANOVA test for condition I"
+
+Call:
+adonis(formula = cbind(Eccentricity, Area, Perimeter) ~ Class,      data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+             Df  SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)    
+Class         4 4.7286e+11 1.1822e+11  342.77 0.09615  0.001 ***
+Residuals 12888 4.4449e+12 3.4489e+08         0.90385           
+Total     12892 4.9177e+12                    1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Run 0 stress 0.1730153 
+Run 1 stress 0.1729948 
+... New best solution
+... Procrustes: rmse 0.000549241  max resid 0.03206908 
+Run 2 stress 0.4211654 
+Run 3 stress 0.1731275 
+... Procrustes: rmse 0.000599958  max resid 0.03183048 
+Run 4 stress 0.1730263 
+... Procrustes: rmse 0.0004947033  max resid 0.0295282 
+Run 5 stress 0.1735805 
+Run 6 stress 0.4211671 
+Run 7 stress 0.1729841 
+... New best solution
+... Procrustes: rmse 0.0005092692  max resid 0.02949421 
+Run 8 stress 0.4211651 
+Run 9 stress 0.1732124 
+... Procrustes: rmse 0.0005549118  max resid 0.02845804 
+Run 10 stress 0.4211664 
+Run 11 stress 0.1729987 
+... Procrustes: rmse 0.0005056426  max resid 0.02270969 
+Run 12 stress 0.1731128 
+... Procrustes: rmse 0.0005516755  max resid 0.02266633 
+Run 13 stress 0.1732384 
+... Procrustes: rmse 0.0006564872  max resid 0.02856857 
+Run 14 stress 0.1733837 
+... Procrustes: rmse 0.0006003198  max resid 0.0285311 
+Run 15 stress 0.1732139 
+... Procrustes: rmse 0.0005082344  max resid 0.02381256 
+Run 16 stress 0.1731177 
+... Procrustes: rmse 0.0005900227  max resid 0.03090501 
+Run 17 stress 0.1729763 
+... New best solution
+... Procrustes: rmse 0.0004465321  max resid 0.01626698 
+Run 18 stress 0.1735489 
+Run 19 stress 0.1732849 
+... Procrustes: rmse 0.0006415115  max resid 0.02850102 
+Run 20 stress 0.1733538 
+... Procrustes: rmse 0.0005858272  max resid 0.02380448 
+*** No convergence -- monoMDS stopping criteria:
+    20: scale factor of the gradient < sfgrmin

@@ -1,0 +1,19 @@
+[1] "PERMANOVA test for condition G"
+
+Call:
+adonis(formula = cbind(Eccentricity, Area, Perimeter) ~ Class,      data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+             Df  SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)    
+Class         4 2.7670e+11 6.9176e+10   194.2 0.02982  0.001 ***
+Residuals 25272 9.0023e+12 3.5622e+08         0.97018           
+Total     25276 9.2790e+12                    1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Run 0 stress 0.1751128 
+Run 1 stress 0.175696 
+Run 2 stress 0.4211584 

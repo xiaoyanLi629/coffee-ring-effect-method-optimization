@@ -1,0 +1,59 @@
+[1] "PERMANOVA test for condition F"
+
+Call:
+adonis(formula = cbind(Eccentricity, Area, Perimeter) ~ Class,      data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+             Df  SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)    
+Class         4 2.7466e+11 6.8664e+10  173.13 0.05307  0.001 ***
+Residuals 12357 4.9008e+12 3.9660e+08         0.94693           
+Total     12361 5.1755e+12                    1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Run 0 stress 0.173877 
+Run 1 stress 0.4211495 
+Run 2 stress 0.1738769 
+... New best solution
+... Procrustes: rmse 0.0006040604  max resid 0.02533546 
+Run 3 stress 0.1738423 
+... New best solution
+... Procrustes: rmse 0.0004917779  max resid 0.02163284 
+Run 4 stress 0.1740475 
+... Procrustes: rmse 0.0005985957  max resid 0.03371969 
+Run 5 stress 0.4211526 
+Run 6 stress 0.1739781 
+... Procrustes: rmse 0.000456572  max resid 0.02293882 
+Run 7 stress 0.1739071 
+... Procrustes: rmse 0.0004908085  max resid 0.0292871 
+Run 8 stress 0.1740185 
+... Procrustes: rmse 0.0006230448  max resid 0.03818924 
+Run 9 stress 0.1738849 
+... Procrustes: rmse 0.0004844328  max resid 0.0257215 
+Run 10 stress 0.1739512 
+... Procrustes: rmse 0.0005318249  max resid 0.03991701 
+Run 11 stress 0.1738821 
+... Procrustes: rmse 0.0005790723  max resid 0.02885979 
+Run 12 stress 0.1739376 
+... Procrustes: rmse 0.0005042359  max resid 0.03360318 
+Run 13 stress 0.1739272 
+... Procrustes: rmse 0.0005504918  max resid 0.03028502 
+Run 14 stress 0.1740092 
+... Procrustes: rmse 0.0005656194  max resid 0.0280469 
+Run 15 stress 0.1738941 
+... Procrustes: rmse 0.000563806  max resid 0.03826291 
+Run 16 stress 0.1741893 
+... Procrustes: rmse 0.0006060501  max resid 0.0381594 
+Run 17 stress 0.1738118 
+... New best solution
+... Procrustes: rmse 0.0004709881  max resid 0.01480231 
+Run 18 stress 0.1743654 
+Run 19 stress 0.1740944 
+... Procrustes: rmse 0.0006665329  max resid 0.03822526 
+Run 20 stress 0.1739467 
+... Procrustes: rmse 0.0004713074  max resid 0.02184667 
+*** No convergence -- monoMDS stopping criteria:
+    20: scale factor of the gradient < sfgrmin

@@ -1,0 +1,53 @@
+[1] "PERMANOVA test for condition H"
+
+Call:
+adonis(formula = cbind(Eccentricity, Area, Perimeter) ~ Class,      data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+             Df  SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)    
+Class         4 1.3365e+11 3.3412e+10  151.84 0.04536  0.001 ***
+Residuals 12782 2.8127e+12 2.2005e+08         0.95464           
+Total     12786 2.9463e+12                    1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Run 0 stress 0.1687337 
+Run 1 stress 0.1692767 
+Run 2 stress 0.1689752 
+... Procrustes: rmse 0.0006749786  max resid 0.01611434 
+Run 3 stress 0.1690612 
+... Procrustes: rmse 0.0005548846  max resid 0.01841143 
+Run 4 stress 0.4211531 
+Run 5 stress 0.1688283 
+... Procrustes: rmse 0.0005705209  max resid 0.01967321 
+Run 6 stress 0.4211543 
+Run 7 stress 0.1687815 
+... Procrustes: rmse 0.0005587144  max resid 0.01789819 
+Run 8 stress 0.1689564 
+... Procrustes: rmse 0.000590165  max resid 0.0250542 
+Run 9 stress 0.1689781 
+... Procrustes: rmse 0.0005749176  max resid 0.02507407 
+Run 10 stress 0.1688193 
+... Procrustes: rmse 0.0005594531  max resid 0.01331469 
+Run 11 stress 0.1692772 
+Run 12 stress 0.1687655 
+... Procrustes: rmse 0.0004384064  max resid 0.01516417 
+Run 13 stress 0.1687723 
+... Procrustes: rmse 0.0005160678  max resid 0.01313406 
+Run 14 stress 0.1690197 
+... Procrustes: rmse 0.0005892084  max resid 0.02506055 
+Run 15 stress 0.4211437 
+Run 16 stress 0.169182 
+... Procrustes: rmse 0.0005637389  max resid 0.03789569 
+Run 17 stress 0.1688256 
+... Procrustes: rmse 0.0006402205  max resid 0.01651654 
+Run 18 stress 0.1687902 
+... Procrustes: rmse 0.0004126121  max resid 0.02407857 
+Run 19 stress 0.1697884 
+Run 20 stress 0.1687578 
+... Procrustes: rmse 0.0004986471  max resid 0.0133182 
+*** No convergence -- monoMDS stopping criteria:
+    20: scale factor of the gradient < sfgrmin

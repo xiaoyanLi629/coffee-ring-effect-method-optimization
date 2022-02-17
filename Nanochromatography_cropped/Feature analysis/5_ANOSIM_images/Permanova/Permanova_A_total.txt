@@ -1,0 +1,48 @@
+[1] "PERMANOVA test for condition A"
+
+Call:
+adonis(formula = cbind(Eccentricity, Area, Perimeter) ~ Class,      data = data, permutations = 999, method = "manhattan") 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+             Df  SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)    
+Class         4 1.2414e+11 3.1036e+10  75.685 0.02586  0.001 ***
+Residuals 11404 4.6765e+12 4.1007e+08         0.97414           
+Total     11408 4.8006e+12                    1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Run 0 stress 0.1572055 
+Run 1 stress 0.1573774 
+... Procrustes: rmse 0.0004777192  max resid 0.02783776 
+Run 2 stress 0.1574056 
+... Procrustes: rmse 0.0004988743  max resid 0.01933092 
+Run 3 stress 0.1579732 
+Run 4 stress 0.4210924 
+Run 5 stress 0.421091 
+Run 6 stress 0.4210895 
+Run 7 stress 0.1577234 
+Run 8 stress 0.1574596 
+... Procrustes: rmse 0.0005369717  max resid 0.0188694 
+Run 9 stress 0.1579025 
+Run 10 stress 0.421094 
+Run 11 stress 0.1575813 
+... Procrustes: rmse 0.000617896  max resid 0.02923347 
+Run 12 stress 0.15745 
+... Procrustes: rmse 0.0005926894  max resid 0.0203005 
+Run 13 stress 0.1576478 
+... Procrustes: rmse 0.0006202868  max resid 0.02781971 
+Run 14 stress 0.1580226 
+Run 15 stress 0.4210888 
+Run 16 stress 0.1573124 
+... Procrustes: rmse 0.0004704286  max resid 0.02163951 
+Run 17 stress 0.1574742 
+... Procrustes: rmse 0.0005591941  max resid 0.02273547 
+Run 18 stress 0.4210952 
+Run 19 stress 0.1575491 
+... Procrustes: rmse 0.0006013178  max resid 0.02780977 
+Run 20 stress 0.4210917 
+*** No convergence -- monoMDS stopping criteria:
+    20: scale factor of the gradient < sfgrmin

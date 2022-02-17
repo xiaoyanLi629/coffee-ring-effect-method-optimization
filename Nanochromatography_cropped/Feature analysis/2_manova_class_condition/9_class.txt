@@ -1,0 +1,56 @@
+[1] "summary for area mean ~ class"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+class        4  10562  2640.4   15.38 6.74e-06 ***
+Residuals   20   3433   171.7                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for peri mean ~ class"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+class        4  22436    5609   17.65 2.41e-06 ***
+Residuals   20   6354     318                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for centroid mean ~ class"
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        4  26212    6553   1.305  0.302
+Residuals   20 100419    5021               
+[1] "summary for eccen mean ~ class"
+            Df  Sum Sq   Mean Sq F value Pr(>F)   
+class        4 0.01180 0.0029507   5.174  0.005 **
+Residuals   20 0.01141 0.0005703                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for orien mean ~ class"
+            Df Sum Sq Mean Sq F value Pr(>F)
+class        4  34.89   8.723   1.123  0.373
+Residuals   20 155.29   7.764               
+[1] "summary for area std ~ class"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+class        4 465343  116336   12.38 3.16e-05 ***
+Residuals   20 187986    9399                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for peri std ~ class"
+            Df  Sum Sq Mean Sq F value   Pr(>F)    
+class        4 1290813  322703    12.8 2.51e-05 ***
+Residuals   20  504219   25211                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for centroid std ~ class"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+class        4  22591    5648   20.02 9.13e-07 ***
+Residuals   20   5641     282                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for eccen std ~ class"
+            Df   Sum Sq   Mean Sq F value Pr(>F)  
+class        4 0.001992 0.0004981   3.146 0.0369 *
+Residuals   20 0.003166 0.0001583                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "summary for orien std ~ class"
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+class        4  115.8  28.939   5.228 0.00476 **
+Residuals   20  110.7   5.536                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
