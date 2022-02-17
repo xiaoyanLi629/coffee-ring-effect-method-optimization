@@ -1,0 +1,225 @@
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.5712 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.110 0.157 0.183 0.214 
+
+Dissimilarity ranks between and within classes:
+        0%   25%   50%    75% 100%   N
+Between  4 96.25 170.5 236.75  278 250
+1       17 83.00 113.0 152.50  191  10
+2       74 96.00 129.0 209.75  253  10
+3        1  3.50   6.5   8.75   14  10
+4       10 31.25  86.5 100.75  125  10
+5       15 31.50  54.5  68.25   95  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.3853 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.101 0.129 0.163 0.203 
+
+Dissimilarity ranks between and within classes:
+        0%   25%   50%    75%  100%   N
+Between  2 84.25 165.5 235.75 285.5 250
+1       22 54.50 115.5 129.50 174.0  10
+2       39 64.00  97.5 169.00 182.0  10
+3        5 29.00  91.5 138.25 223.0  10
+4        4 23.00  71.0 105.50 227.0  10
+5        1 85.75 123.0 160.75 260.0  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.8075 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.128 0.175 0.203 0.241 
+
+Dissimilarity ranks between and within classes:
+        0%    25%   50%    75%  100%   N
+Between  3 110.25 174.5 237.75 277.5 250
+1        6  15.75  31.5  49.50  58.0  10
+2        1  10.50  36.5  69.50  91.0  10
+3       10  24.25  42.0  62.50  99.0  10
+4       11  27.75  40.0  77.75 121.0  10
+5        5  29.25  67.5  96.25 219.0  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.6501 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.113 0.162 0.205 0.246 
+
+Dissimilarity ranks between and within classes:
+        0%    25%   50%    75%  100%   N
+Between  7 102.25 168.5 237.75 277.5 250
+1        3  14.00  19.0  23.25  31.0  10
+2       16  35.25  56.5  84.75 131.0  10
+3        1   4.25  11.0  66.50  77.0  10
+4       10  63.75  97.0 133.75 205.0  10
+5       25  59.25 133.5 204.25 220.0  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.7365 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.112 0.143 0.175 0.229 
+
+Dissimilarity ranks between and within classes:
+        0%    25%   50%    75% 100%   N
+Between  3 103.25 173.5 237.75  282 250
+1        1   8.25  12.5  27.50   57  10
+2       13  20.00  55.0  76.00  116  10
+3        2  18.75  41.0  73.00  213  10
+4        7  36.50  49.5 111.50  171  10
+5       15  59.50  94.0 106.50  176  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.756 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.124 0.161 0.212 0.244 
+
+Dissimilarity ranks between and within classes:
+        0%    25%   50%    75%  100%   N
+Between  2 104.25 175.5 237.75 280.5 250
+1        8  30.25  57.0 111.50 172.0  10
+2        6  81.00 106.5 121.75 168.0  10
+3        9  24.50  43.0  74.50 111.0  10
+4        1   6.25  11.5  17.50  25.0  10
+5        7  27.50  42.0  67.50  97.0  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.768 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.114 0.146 0.171 0.203 
+
+Dissimilarity ranks between and within classes:
+        0%    25%   50%    75%  100%   N
+Between  4 107.25 175.5 237.75 281.5 250
+1       16  31.50  48.5  60.50  76.0  10
+2        1  28.50  46.5 132.50 161.0  10
+3        2  11.50  56.0  65.75  75.0  10
+4        3  31.75  58.0 116.25 144.0  10
+5        8  24.00  44.0  59.00  71.0  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.5011 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.115 0.147 0.177 0.226 
+
+Dissimilarity ranks between and within classes:
+        0%    25%   50%    75% 100%   N
+Between  5  98.25 164.5 231.75  285 250
+1        9  21.75  40.0  53.75   67  10
+2        1   8.50  14.5  19.75   73  10
+3        2   8.75  30.0  64.75   96  10
+4       17  60.75 244.0 285.00  285  10
+5       70 126.75 156.5 197.25  261  10
+
+NULL
+
+Call:
+anosim(x = data.dist, grouping = data$Class) 
+Dissimilarity: canberra 
+
+ANOSIM statistic R: 0.5869 
+      Significance: 0.001 
+
+Permutation: free
+Number of permutations: 999
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.108 0.147 0.171 0.218 
+
+Dissimilarity ranks between and within classes:
+        0%   25%   50%    75% 100%   N
+Between  3 99.25 166.5 236.75  281 250
+1        2 57.00  83.5 111.75  183  10
+2        1 15.75  44.0  63.00   90  10
+3        8 23.25  29.5  41.25   59  10
+4       15 45.75 144.5 206.50  239  10
+5        4 24.25  89.0 136.25  193  10
+
+NULL
